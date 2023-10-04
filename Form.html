@@ -4,45 +4,46 @@
 
 <head>
 
-<meta charset='utf-8'>
+    <meta charset='utf-8'>
 
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<title>Page Title</title>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 
-<script src='form.html'></script>
+    <script src='form.html'></script>
 
 </head>
 
 <body>
+    <div>
+        <h1>Formulário de Contato</h1><br><br>
+        <form methood='post' action=''>
 
-<form methood='post' action=''>
+            <p>
 
-<p>
+                <label for='email'>Email</label>
+                <input type='email' id='email' name='email'>
+                <br>
+                <span>por exemplo, seunome@dominio.com</span>
+            </p>
 
-<label for='email'> id='email' name='email'</label>
-<input type='email' id='email' name='email'>
+            <p>
 
-<span>por exemplo, seunome@dominio.com</span>
-</p>
+                <label for='subject'> Assunto</label>
+                <input id='content'>
 
- <p>
+            </p>
 
-<label for='subject'> Assunto</label>
-<textarea id='content'></textarea>
+            <p>
+                <label for='content'>Mensagem</label>
+                <textarea id='content'></textarea>
 
- </p>
+            </p>
 
- <p>
-<label for='content'>Mensagem</label>
- <textarea id='content'></textarea>
+            <button>Enviar</button>
 
-</p>
-
-<button>Enviar</button>
-
-</form>
+        </form>
 
 </body>
 
